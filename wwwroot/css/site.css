@@ -1,0 +1,67 @@
+/* --- Tipografía Estilo Informal --- */
+body, input, button, select, textarea {
+    font-family: "Comic Sans MS", "Comic Sans", "Comic Neue", "Chalkboard SE", cursive;
+}
+
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    margin-bottom: 60px;
+    color: #002d72; /* Azul oscuro para texto */
+    /* --- Fondo Color Crema --- */
+    background-color: #fffdd0;
+}
+
+/* --- Estilo de Campos (Crema más claro y bordes) --- */
+.form-control {
+    background-color: #fffef0; /* Un crema casi blanco para los inputs */
+    border: 2px solid #258cfb; /* Borde azul de serie */
+}
+
+    /* --- Estados de Enfoque (Azul) --- */
+    .btn:focus,
+    .btn:active:focus,
+    .btn-link.nav-link:focus,
+    .form-control:focus,
+    .form-check-input:focus {
+        box-shadow: 0 0 0 0.1rem #fffdd0, 0 0 0 0.25rem #258cfb; /* Sombra sobre el fondo crema */
+        border-color: #258cfb;
+        background-color: #ffffff; /* Blanco puro al escribir para máximo contraste */
+    }
+
+/* --- Placeholders y Formularios (Rojo y Azul) --- */
+.form-floating > .form-control-plaintext::placeholder,
+.form-floating > .form-control::placeholder {
+    color: #e63946; /* Rojo para el placeholder */
+    text-align: end;
+    opacity: 0.8;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder,
+.form-floating > .form-control:focus::placeholder {
+    text-align: start;
+    color: #258cfb;
+}
+
+/* --- Botones --- */
+.btn-primary {
+    background-color: #258cfb;
+    border-color: #0056b3;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #e63946;
+    border-color: #b91d1d;
+    color: white;
+}
