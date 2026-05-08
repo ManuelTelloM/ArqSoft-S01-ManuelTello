@@ -1,90 +1,32 @@
-/* --- Tipografía estilo Jurassic Park --- */
-/* Importa una fuente parecida al logo de Jurassic Park */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+/* =========================================================
+   ASSASSIN'S CREED MIRAGE — Color texto naranja
+========================================================= */
 
-body, input, button, select, textarea {
-    font-family: "Cinzel", serif;
+h1, h2, h3, h4, h5, h6 {
+    color: #FF8C00;
 }
 
-/* --- Configuración General --- */
-html {
-    font-size: 14px;
-    position: relative;
-    min-height: 100%;
+p, span, li {
+    color: #FF8C00;
 }
 
-@media (min-width: 768px) {
-    html {
-        font-size: 16px;
-    }
+.unity-accent,
+.catalog-btn,
+.product-btn,
+.unity-btn,
+strong, b {
+    color: #FF8C00;
 }
 
-/* --- Fondo Oscuro estilo Jurassic Park --- */
-body {
-    margin-bottom: 60px;
-    background-color: #121212; /* Negro oscuro */
-    color: #f4c542; /* Amarillo jurassic */
+small, label, caption, figcaption {
+    color: #FF8C00;
 }
 
-/* --- Campos de texto --- */
-.form-control {
-    background-color: #1f1f1f;
-    border: 2px solid #c1121f; /* Rojo intenso */
-    color: #f4c542;
-}
-
-    /* --- Estados de enfoque --- */
-    .btn:focus,
-    .btn:active:focus,
-    .btn-link.nav-link:focus,
-    .form-control:focus,
-    .form-check-input:focus {
-        box-shadow: 0 0 0 0.1rem #121212, 0 0 0 0.25rem #f4c542;
-        border-color: #f4c542;
-        background-color: #2a2a2a;
-        color: white;
-    }
-
-/* --- Placeholder --- */
-.form-floating > .form-control-plaintext::placeholder,
-.form-floating > .form-control::placeholder {
-    color: #ff595e;
-    text-align: end;
-    opacity: 0.8;
-}
-
-.form-floating > .form-control-plaintext:focus::placeholder,
-.form-floating > .form-control:focus::placeholder {
-    text-align: start;
-    color: #f4c542;
-}
-
-/* --- Botón Principal --- */
-.btn-primary {
-    background-color: #c1121f; /* Rojo jurassic */
-    border-color: #780000;
-    color: #f4c542;
-    font-weight: bold;
-}
-
-/* --- Botón de peligro --- */
-.btn-danger {
-    background-color: #780000;
-    border-color: #3d0000;
-    color: #ffffff;
-}
-
-/* --- Links --- */
 a {
-    color: #f4c542;
+    color: #FF8C00;
+    text-decoration: none;
 }
 
     a:hover {
-        color: #ffdd57;
+        color: #FFA733;
     }
-
-/* --- Navbar opcional --- */
-.navbar {
-    background-color: #1a1a1a;
-    border-bottom: 3px solid #c1121f;
-}
