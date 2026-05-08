@@ -7,7 +7,7 @@ Se utilizo el .NET para realizar el programa y se utilizo tambien css y javaScri
 
 
 
-##Catalogo.
+#Catalogo.
 Permite agrefar titulos de videojuegos. Al agregar un video juego se tendran que ingresar unos datos para identificar al juego.
 como por ejemplo: Nombre, tipo, consola y año que salio.
 
